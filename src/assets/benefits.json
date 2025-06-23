@@ -1,0 +1,110 @@
+[
+  {
+    "clientId": "client_7",
+    "storeId": "store2",
+    "visits": 5,
+    "rewardedAt": "2025-05-14T20:47:21.689458Z"
+  },
+  {
+    "clientId": "client_7",
+    "storeId": "store2",
+    "visits": 5,
+    "rewardedAt": "2025-05-20T20:47:21.691470Z"
+  },
+  {
+    "clientId": "client_5",
+    "storeId": "store1",
+    "visits": 5,
+    "rewardedAt": "2025-04-29T00:47:21.689766Z"
+  },
+  {
+    "clientId": "client_5",
+    "storeId": "store1",
+    "visits": 5,
+    "rewardedAt": "2025-05-11T03:47:21.689554Z"
+  },
+  {
+    "clientId": "client_5",
+    "storeId": "store1",
+    "visits": 5,
+    "rewardedAt": "2025-05-21T18:47:21.692806Z"
+  },
+  {
+    "clientId": "client_2",
+    "storeId": "store2",
+    "visits": 5,
+    "rewardedAt": "2025-04-29T11:47:21.687523Z"
+  },
+  {
+    "clientId": "client_2",
+    "storeId": "store2",
+    "visits": 5,
+    "rewardedAt": "2025-05-07T19:47:21.687436Z"
+  },
+  {
+    "clientId": "client_4",
+    "storeId": "store2",
+    "visits": 5,
+    "rewardedAt": "2025-05-02T15:47:21.691862Z"
+  },
+  {
+    "clientId": "client_0",
+    "storeId": "store1",
+    "visits": 5,
+    "rewardedAt": "2025-05-04T13:47:21.692120Z"
+  },
+  {
+    "clientId": "client_0",
+    "storeId": "store1",
+    "visits": 5,
+    "rewardedAt": "2025-05-21T19:47:21.689601Z"
+  },
+  {
+    "clientId": "client_6",
+    "storeId": "store2",
+    "visits": 5,
+    "rewardedAt": "2025-05-24T15:47:21.692228Z"
+  },
+  {
+    "clientId": "client_1",
+    "storeId": "store2",
+    "visits": 5,
+    "rewardedAt": "2025-05-18T06:47:21.689158Z"
+  },
+  {
+    "clientId": "client_5",
+    "storeId": "store2",
+    "visits": 5,
+    "rewardedAt": "2025-05-08T00:47:21.690605Z"
+  },
+  {
+    "clientId": "client_0",
+    "storeId": "store2",
+    "visits": 5,
+    "rewardedAt": "2025-04-29T16:47:21.685352Z"
+  },
+  {
+    "clientId": "client_4",
+    "storeId": "store1",
+    "visits": 5,
+    "rewardedAt": "2025-05-07T07:47:21.689990Z"
+  },
+  {
+    "clientId": "client_4",
+    "storeId": "store1",
+    "visits": 5,
+    "rewardedAt": "2025-05-11T23:47:21.686398Z"
+  },
+  {
+    "clientId": "client_7",
+    "storeId": "store1",
+    "visits": 5,
+    "rewardedAt": "2025-05-14T19:47:21.691773Z"
+  },
+  {
+    "clientId": "client_8",
+    "storeId": "store2",
+    "visits": 5,
+    "rewardedAt": "2025-05-06T04:47:21.690396Z"
+  }
+]
