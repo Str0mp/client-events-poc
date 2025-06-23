@@ -7,7 +7,7 @@
 **Instalación y arranque:**
 
 ```bash
-git clone <repo-url> client-events-poc
+git clone https://github.com/Str0mp/client-events-poc client-events-poc
 cd client-events-poc
 npm install
 npm run start:dev
