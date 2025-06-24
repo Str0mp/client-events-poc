@@ -1,14 +1,14 @@
-// src/benefits/benefits.controller.ts
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Post } from '@nestjs/common';
 import { BenefitsService } from './benefits.service';
-import { BenefitDto } from './dto/benefit.dto';
 
 @Controller('benefits')
 export class BenefitsController {
   constructor(private readonly svc: BenefitsService) {}
 
-  @Get('process')
-  processAndGet(): BenefitDto[] {
-    return this.svc.processBenefits();
+  //ya no se llama a la función processBenefits si no que al trigger para que se encargue de las colas
+  @Post('process')
+  enqueueProcess(): { message: string } {
+    this.svc.triggerProcess();
+    return { message: 'Benefit calculation enqueued (5s initial delay)' };
   }
 }
