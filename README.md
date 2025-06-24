@@ -25,6 +25,20 @@ npm run start:dev
 
   * Devuelve la información histórica por REST sin guardar ningún archivo.
 
+
+**Rama especial "feature/add-cache-to-benefits" agregué:**
+
+* Cola en memoria con p-queue para encolar processBenefits() y devolver la respuesta HTTP inmediatamente, 
+        sin  depender de Redis ni otros servicios externos.
+    
+    * `POST /benefits/process`
+        [curl -X POST http://localhost:3000/benefits/process](http://localhost:3000/benefits/process)
+
+* Chokidar para detectar src/assets/ruklo_events_1000.json: al detectarse cambios, se invalida el caché en memoria y se recarga automáticamente.
+
+
+    *Nota personal: nunca antes había trabajado con queues, pero usé IA para guiarme en esta implementación. Que usa librerías para trabajar con colas en memoria.*
+
 ---
 
 ## 🧠 Parte 1.1
